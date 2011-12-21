@@ -1,4 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <f xmlns="http://pear.php.net/dtd/rest.categorypackageinfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackageinfo     http://pear.php.net/dtd/rest.categorypackageinfo.xsd">
+    <pi>
+        <p>
+            <n>HTML_Template_Nest</n>
+            <c>tthomas48.github.com/pear</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>New BSD License</l>
+            <s>Compiled templating solution based upon java server pages.</s>
+            <d>Nest (Nestable Extensible Server Templates) is a templating language featuring
+* tag libraries
+* tag files
+* a format similar to jsp 2.0
+* well-formed xml views
+* views that compile to native easy to read php code
 
+Nest is compatible with PHP 5.</d>
+            <r xlink:href="/rest/r/html_template_nest" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.3.6</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.3.6</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}s:7:"package";a:3:{s:4:"name";s:4:"PEAR";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:5:"1.0b1";}}}</d>
+        </deps>
+
+    </pi>
 </f>
