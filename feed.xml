@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://tthomas48.github.com/pear</id>
-    <updated>2011-12-21T11:48:37-06:00</updated>
+    <updated>2012-01-04T17:34:07-06:00</updated>
     <title>tthomas48's PEAR Channel Server Latest Releases</title>
     <link href="http://tthomas48.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,19 @@
     </author>
 
     <entry>
+        <title>HTML_Template_Nest 1.3.7 (stable)</title>
+        <link href="http://tthomas48.github.com/pear/get/HTML_Template_Nest-1.3.7.tgz" />
+        <id>http://tthomas48.github.com/pear/get/HTML_Template_Nest-1.3.7.tgz</id>
+        <author>
+            <name>tthomas48</name>
+        </author>
+        <updated>2012-01-04T23:32:38-06:00</updated>
+        <content>
+            
+fixed xml namespaces to properly render
+ 
+        </content>
+    </entry>    <entry>
         <title>HTML_Template_Nest 1.3.6 (stable)</title>
         <link href="http://tthomas48.github.com/pear/get/HTML_Template_Nest-1.3.6.tgz" />
         <id>http://tthomas48.github.com/pear/get/HTML_Template_Nest-1.3.6.tgz</id>
