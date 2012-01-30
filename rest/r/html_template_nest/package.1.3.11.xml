@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>HTML_Template_Nest</name>
+ <channel>tthomas48.github.com/pear</channel>
+ <summary>Compiled templating solution based upon java server pages.</summary>
+ <description>Nest (Nestable Extensible Server Templates) is a templating language featuring
+* tag libraries
+* tag files
+* a format similar to jsp 2.0
+* well-formed xml views
+* views that compile to native easy to read php code
+
+Nest is compatible with PHP 5.</description>
+ <lead>
+  <name>Tim Thomas</name>
+  <user>tthomas48</user>
+  <email>tim@buyplaytix.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-01-30</date>
+ <time>20:09:53</time>
+ <version>
+  <release>1.3.11</release>
+  <api>1.3</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>
+optimizations
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="a86c8857591bcf11f29a6d0fb3196e9c" name="HTML/Template/Nest/Taglib/Standard.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="46986af2d23baa88b89eff31c2b6dc77" name="HTML/Template/Nest/NestCompileTask.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="e71d10dc4c5ba9a294353833753b6693" name="HTML/Template/Nest/Compiler.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="27c2128d6328091d20f2003ebbd77219" name="HTML/Template/Nest/CompilerException.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="8480fe7d833b48cc7b8692eb0168f979" name="HTML/Template/Nest/Parser.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="b9238b812d5fd7101aee2c573ac8385c" name="HTML/Template/Nest/EvalException.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="02248191958f4c435e540e1e5e1d4555" name="HTML/Template/Nest/ViewException.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="6ffc40f93d053516e57a2a71e096c5a7" name="HTML/Template/Nest/ParseException.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="80a638afff662665877561dd7ae7c650" name="HTML/Template/Nest/View.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="bbcf03687e402aa549ceaa98671d1b18" name="HTML/Template/Nest/Tag.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="2fa4cd1bc5bcd9c5afbc47e3bef4e2aa" name="HTML/Template/Nest/Taglib.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="5b07fa0835bb736ff42bed63e01eeb39" name="HTML/Template/Nest/TaglibException.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="63e4592c42dc622d876c1a0c831a59b5" name="HTML/Template/Nest/TagFile.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="79c6a6088f3ac3231f378160e2d31825" name="HTML/Template/Nest/TagException.php" role="php">
+    <tasks:replace from="@package_version@" to="version" type="package-info" />
+   </file>
+   <file md5sum="f1f419b434feba49777e512eb8b4e556" name="doc/pages/customtaglib.html" role="doc" />
+   <file md5sum="5e1e602c5c4ac91aeb8df05632a78dbb" name="doc/pages/license.html" role="doc" />
+   <file md5sum="e4b0a63b1322dee92b9ede073509f714" name="doc/pages/simpleview.html" role="doc" />
+   <file md5sum="5b773cc40adb8f528606861e3ebcb776" name="doc/pages/intro.html" role="doc" />
+   <file md5sum="f4213c2c76e528e13a4f16949dd2736b" name="doc/pages/createtag.html" role="doc" />
+   <file md5sum="76e7036ec747df193a6ce224ff5d956e" name="doc/pages/expressions.html" role="doc" />
+   <file md5sum="81e8bc49f27c594f5af4263f827c380c" name="doc/pages/standardtaglib.html" role="doc" />
+   <file md5sum="c33b5f6c30cd9e4506b578a5a33270a4" name="doc/pages/phingtask.html" role="doc" />
+   <file md5sum="e57616bccf42020d177e7b57cf8231dd" name="doc/pages/install.html" role="doc" />
+   <file md5sum="5f264dad286ee2cd85123b4613051101" name="doc/pages/createtagfile.html" role="doc" />
+   <file md5sum="128e8e82311d11deb935f3058a6258e0" name="doc/css/documentation.css" role="doc" />
+   <file md5sum="c4717fabfb53e978135730b3814aa685" name="doc/frame/toc.html" role="doc" />
+   <file md5sum="4b3e9d8c6d2cb777db45155816e867c7" name="doc/frame/docFrame.html" role="doc" />
+   <file md5sum="2fae673e5d9f8c42a6e74738deb989af" name="doc/frame/start.html" role="doc" />
+   <file md5sum="0b6ffd661ae4c1e81874ebb36d895784" name="doc/frame/navTop.html" role="doc" />
+   <file md5sum="893997a87e2b66a628f2652a829186bd" name="doc/images/nestlogo.png" role="doc" />
+   <file md5sum="a5d1ff9b32c54ca70bc831b507bfdce2" name="doc/index.html" role="doc" />
+   <file md5sum="bdd0f6e89f0000783994b6460db6afa0" name="test/views/templates/notaglibclass/test.tmpl" role="test" />
+   <file md5sum="f6d9c08799f8cf3204fc0c3ad6c88a94" name="test/views/templates/testpackage/testtaglib/wrappableTagFile.tmpl" role="test" />
+   <file md5sum="02150995ce3006d885cbe9fd392a27fe" name="test/views/templates/testpackage/testtaglib/roundedContainer.tmpl" role="test" />
+   <file md5sum="501adfe087b1e6c486220d7c66810c01" name="test/views/templates/testpackage/testtaglib/body.tmpl" role="test" />
+   <file md5sum="947f9811e1f88c415cbdd38b78a0e36d" name="test/views/templates/testpackage/testtaglib/nested.tmpl" role="test" />
+   <file md5sum="356f78e054e320f25effeaf40810a518" name="test/views/templates/testpackage/testtaglib/nestedFooter.tmpl" role="test" />
+   <file md5sum="6667bc60f5e7025bdfbb33c11a30e282" name="test/views/templates/testpackage/testtaglib/badXml.tmpl" role="test" />
+   <file md5sum="626ade934026634b0fa773a172f1a2af" name="test/views/templates/testpackage/testtaglib/tagfile.tmpl" role="test" />
+   <file md5sum="20eee8cc131cb3cc1ff8525aef2645e1" name="test/views/templates/testpackage/testtaglib/tabindexa.tmpl" role="test" />
+   <file md5sum="da72415e25bff85dccf1106546aede54" name="test/views/templates/testpackage/testtaglib/tabindexb.tmpl" role="test" />
+   <file md5sum="11f748397353e186041cdae6481843d6" name="test/views/templates/testpackage/testtaglib/nestedbody.tmpl" role="test" />
+   <file md5sum="3100b539d5466b2cbdb402f1d3caabf7" name="test/views/templates/testpackage/testtaglib/helppane.tmpl" role="test" />
+   <file md5sum="c3fa186e4bff4669ab2976afd83f8a71" name="test/views/badtemplate.nst" role="test" />
+   <file md5sum="a4140db41a8065a87b9b58f4f9263278" name="test/views/pre.nst" role="test" />
+   <file md5sum="6101972d3a59f9963d93db6252fc0407" name="test/views/json.nst" role="test" />
+   <file md5sum="30d8daedd3a4a903ba543604e4951eb5" name="test/views/testtaglib.nst" role="test" />
+   <file md5sum="4e29c7194dc121087b7b12c99bf5f0a1" name="test/views/badxml.nst" role="test" />
+   <file md5sum="f1d28a027cee3508bcdcbb0e32e0a453" name="test/views/standardtaglib.nst" role="test" />
+   <file md5sum="91ca2d1f040c9ccf320ce25fb00a06ce" name="test/views/attribute.nst" role="test" />
+   <file md5sum="001ad98168dd3f549655016ae39abc89" name="test/views/nested.nst" role="test" />
+   <file md5sum="c166efd80ddd82ad9c1d4c03f1d27463" name="test/views/nestedvars.nst" role="test" />
+   <file md5sum="a902fc75fb74b06c99fc4b4ee70f7d56" name="test/views/replace.nst" role="test" />
+   <file md5sum="b4583fd0b9e851ca7251adc58f8bde88" name="test/viewoutput/pre.html" role="test" />
+   <file md5sum="56f9a6109b62b0b5e12b9e6526f6d900" name="test/viewoutput/attribute.html" role="test" />
+   <file md5sum="609d5ce566ec0ede3f5a96b6d3891aee" name="test/viewoutput/testtaglib.html" role="test" />
+   <file md5sum="99784b48953b5d9b2493e157254480a9" name="test/viewoutput/json.html" role="test" />
+   <file md5sum="c43a7d41dc2b51c8e8eeb0d7d52a11ea" name="test/viewoutput/standardtaglib.html" role="test" />
+   <file md5sum="df3636d7f1df1ccdca9a892358355ec5" name="test/viewoutput/nested.html" role="test" />
+   <file md5sum="71494b2c3ac4f13df470e7bd0e8665c0" name="test/viewoutput/nestedvars.html" role="test" />
+   <file md5sum="d5f6fd678050353058bacf870cc27b59" name="test/viewoutput/replace.html" role="test" />
+   <file md5sum="9277c45c7caa689ab04b7a9f430e9dfa" name="test/TestPackage/TestTaglib.php" role="test" />
+   <file md5sum="d8cacfaa205f4a93e12e9cca5d8bc620" name="test/AllTests.php" role="test" />
+   <file md5sum="d7e5499f911f1ae0ccdd1b49a69cea02" name="test/TaglibTest.php" role="test" />
+   <file md5sum="5e49550c5c6c6df05df847573c81a85e" name="test/StandardTaglibTest.php" role="test" />
+   <file md5sum="01e14835dcc0446ac59b31220cb5ccac" name="test/AttributeTest.php" role="test" />
+   <file md5sum="cacc240f0124f68a704a8f8be4a27b8a" name="test/PreTest.php" role="test" />
+   <file md5sum="3143671f7dfd970ca6e53ce3ad9eae2f" name="test/ParserTest.php" role="test" />
+   <file md5sum="d550a484603c5a1deb6f9b0587b5a3ec" name="test/ErrorTest.php" role="test" />
+   <file md5sum="ba73ff4a6a75402a2e5c17f6ca1c0573" name="test/NestedTagsTest.php" role="test" />
+   <file md5sum="34070a429a617b79562aba5bdb8631ea" name="test/ReplaceTagTest.php" role="test" />
+   <file md5sum="6a243ef4c2b9c6205b2556631715c2de" name="LICENSE" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+   <package>
+    <name>PEAR</name>
+    <channel>pear.php.net</channel>
+    <min>1.0b1</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+</package>
